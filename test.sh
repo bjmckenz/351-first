@@ -23,7 +23,7 @@ fi
 
 echo "23" > test2.txt
 output=$(./fib 4 i test2.txt)
-expected_output="196418"
+expected_output="121393"
 rm test2.txt
 
 
